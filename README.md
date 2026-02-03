@@ -41,7 +41,6 @@ Spotify track metadata collected from the Spotify platform.
 
 Each row represents a single track, making the dataset suitable for supervised learning.
 
----
 
 ##  Data Preprocessing
 
@@ -57,7 +56,6 @@ The dataset underwent extensive preprocessing to ensure modeling reliability.
 ### Outcome
 A clean, high-quality dataset with no data leakage or structural issues, ready for EDA and modeling.
 
----
 
 ##  Exploratory Data Analysis (EDA)
 
@@ -70,7 +68,6 @@ A clean, high-quality dataset with no data leakage or structural issues, ready f
 **Implication**
 This imbalance increases prediction difficulty and penalizes models that fail to capture non-linear patterns.
 
----
 
 ### Correlation Analysis
 **Findings**
@@ -81,7 +78,6 @@ This imbalance increases prediction difficulty and penalizes models that fail to
 **Implication**
 Linear models are safe to apply but may struggle with non-linear dependencies.
 
----
 
 ### Genre Frequency Analysis
 **Observations**
@@ -91,7 +87,6 @@ Linear models are safe to apply but may struggle with non-linear dependencies.
 **Implication**
 Predictions may be biased toward popular genres, limiting generalization to niche styles.
 
----
 
 ##  Feature Engineering (Critical Section)
 
@@ -107,7 +102,6 @@ Removed non-predictive and leakage-prone features:
 - Improves generalization
 - Ensures fair modeling
 
----
 
 ### Feature Creation – Track Age
 ```text
